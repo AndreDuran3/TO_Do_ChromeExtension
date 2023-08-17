@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "To-Do Extension",
+  "version": "1.0",
+  "description": "A To-Do list used for on the go when you have your computer but not a pen or paper. Just click it and type it in then come back to it later. Made by Andre Duran",
+  "icons": {
+    "16": "images/sixteen.png",
+    "48": "images/fortyeight.png",
+    "128": "images/onetwenty.png"
+  },
+  "permissions": [
+    "activeTab", 
+    "storage"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "images/sixteen.png",
+      "48": "images/fortyeight.png",
+      "128": "images/onetwenty.png"
+    }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["script.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
+
+
